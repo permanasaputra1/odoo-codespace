@@ -1,0 +1,8 @@
+{
+  "name": "Odoo 17 Codespace",
+  "dockerComposeFile": "docker-compose.yml",
+  "service": "odoo",
+  "workspaceFolder": "/workspace",
+  "forwardPorts": [8069],
+  "postCreateCommand": "echo 'Odoo is starting...'"
+}
